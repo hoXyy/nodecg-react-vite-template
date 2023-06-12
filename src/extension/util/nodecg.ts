@@ -1,15 +1,4 @@
-import { CreateNodecgInstance } from 'ts-nodecg/server';
-
-import { ReplicantMap } from '../../types/replicants';
-import { MessageMap } from '../../types/messages';
-import { Configschema } from '../../types/generated';
-
-export type NodeCG = CreateNodecgInstance<
-  'nodecg-react-vite-template',
-  Configschema,
-  ReplicantMap,
-  MessageMap
->;
+import { BundleNodecgInstance as NodeCG } from '../../types/nodecg';
 
 let nodecg: NodeCG;
 

@@ -1,4 +1,5 @@
-import { NodeCG, set } from './util/nodecg';
+import { set } from './util/nodecg';
+import { BundleNodecgInstance as NodeCG } from '../types/nodecg';
 
 export default (nodecg: NodeCG) => {
   set(nodecg);
