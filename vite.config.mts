@@ -24,9 +24,4 @@ export default defineConfig({
       },
     }),
   ],
-  resolve: {
-    alias: {
-      "@nodecg-react-vite-template": `${__dirname}/src/`,
-    },
-  },
 });
