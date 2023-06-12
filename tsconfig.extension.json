@@ -6,6 +6,6 @@
     },
     "include": [
         "src/extension/**/*.ts",
-        "src/nodecg/**/*.d.ts"
+        "src/types/**/*.d.ts"
     ]
 }
