@@ -7,7 +7,7 @@ import checker from 'vite-plugin-checker';
 export default defineConfig({
   plugins: [
     react(),
-    checker({ typescript: true }),
+    checker({ typescript: { tsconfigPath: './tsconfig.browser.json' } }),
     NodeCGPlugin({
       inputs: {
         './src/browser/dashboard/*.tsx': './src/template.html',
