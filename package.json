@@ -12,7 +12,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "prettify": "prettier --write src/browser src/extension",
     "prebuild": "npm run clean",
-    "schema-types": "nodecg schema-types -o src/nodecg/generated",
+    "schema-types": "nodecg schema-types -o src/types/generated",
     "start": "node ../..",
     "watch": "run-p watch:*",
     "watch:browser": "vite",
