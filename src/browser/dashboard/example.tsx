@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button';
 import exampleImage from './image.png';
 import { useReplicant } from 'use-nodecg';
-import { ExampleReplicant } from '../../nodecg/generated';
+import { ExampleReplicant } from '../../types/generated';
 import { DashboardThemeProvider } from './components/DashboardThemeProvider';
 import { createRoot } from 'react-dom/client';
 

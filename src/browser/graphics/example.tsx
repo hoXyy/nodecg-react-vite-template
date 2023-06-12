@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import exampleImage from './image.png';
 import { useReplicant } from 'use-nodecg';
-import { ExampleReplicant } from 'src/nodecg/generated';
+import { ExampleReplicant } from '../../types/generated';
 
 const App = () => {
   const [exampleReplicant] = useReplicant<ExampleReplicant>('exampleReplicant', {
