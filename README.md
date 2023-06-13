@@ -21,6 +21,7 @@ Template for NodeCG bundles that use React and TypeScript. Heavily inspired by z
 - `clean`: Clean up all built/watched files.
 - `lint`: Finds any possible linting errors using ESLint, but does not fix them.
 - `prebuild`: Alias for `clean`, will automatically run before `build` if called.
+- `prettify`: Runs Prettify on the browser and extension source code.
 - `schema-types`: Create TypeScript typings for schemas/`Configschema.json` using `nodecg-cli`.
 - `start`: Start NodeCG.
 - `watch`: Build code and watch for changes, for use in development.
