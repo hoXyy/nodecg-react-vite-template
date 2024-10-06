@@ -221,7 +221,7 @@ export default async ({
           rollupOptions: {
             input: inputs,
           },
-          manifest: true,
+          manifest: 'manifest.json',
           outDir: "./shared/dist",
           assetsDir: ".",
         },
