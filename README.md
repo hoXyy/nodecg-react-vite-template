@@ -5,6 +5,7 @@ This template uses the [new install method](https://www.nodecg.dev/docs/installi
 
 ## Some technical details
 - Extension uses TypeScript.
+- Browser code is built using [Rsbuild](https://rsbuild.rs/), and extension code is built and bundled using [Rspack](https://rspack.rs/)
 - Browser uses React v18, with TSX support by default.
     - Includes [@nodecg/react-hooks](https://www.npmjs.com/package/@nodecg/react-hooks) for easy use of replicants compatible with React Hooks.
     - Dashboard includes [Material UI](https://mui.com/) configured for dark mode by default for easy styling.
