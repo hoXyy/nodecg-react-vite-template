@@ -13,7 +13,7 @@
     "prettify": "prettier --write src/browser src/extension",
     "prebuild": "npm run clean",
     "schema-types": "nodecg schema-types -o src/types/generated",
-    "start": "node ../..",
+    "start": "nodecg start",
     "watch": "run-p watch:*",
     "watch:browser": "vite",
     "watch:extension": "tsc -b tsconfig.extension.json -w --preserveWatchOutput"
@@ -24,15 +24,15 @@
     "@fontsource/roboto": "^5.0.3",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.4",
+    "@nodecg/react-hooks": "^1.0.3",
     "lodash": "^4.17.21",
+    "nodecg": "^2.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "6.0.0-rc.3",
-    "use-nodecg": "0.4.1-2"
+    "styled-components": "6.0.0-rc.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.12.0",
-    "@nodecg/types": "^2.1.8",
     "@types/eslint__js": "^8.42.3",
     "@types/lodash": "^4.14.195",
     "@types/react": "^18.0.37",
