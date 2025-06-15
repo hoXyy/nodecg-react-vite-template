@@ -1,4 +1,4 @@
-# nodecg-react-vite-template
+# nodecg-react-template
 Template for NodeCG bundles that use React and TypeScript. Heavily inspired by zoton2's [nodecg-vue-ts-template](https://github.com/zoton2/nodecg-vue-ts-template) template.
 
 This template uses the [new install method](https://www.nodecg.dev/docs/installing-new) for NodeCG.

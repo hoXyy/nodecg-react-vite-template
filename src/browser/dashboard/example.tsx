@@ -3,12 +3,12 @@ import exampleImage from './image.png';
 import { useReplicant } from '@nodecg/react-hooks';
 import { ExampleReplicant } from '../../types/generated';
 import { DashboardThemeProvider } from './components/DashboardThemeProvider';
-import { createRoot } from 'react-dom/client';
+
+import { render } from '../render';
 
 const App = () => {
-  const [exampleReplicant, setExampleReplicant] = useReplicant<ExampleReplicant>(
-    'exampleReplicant',
-  );
+  const [exampleReplicant, setExampleReplicant] =
+    useReplicant<ExampleReplicant>('exampleReplicant');
 
   return (
     <DashboardThemeProvider>
@@ -25,6 +25,4 @@ const App = () => {
   );
 };
 
-const container = document.getElementById('root');
-const root = createRoot(container!);
-root.render(<App />);
+render(<App />);
