@@ -1,17 +1,15 @@
 import { createRoot } from 'react-dom/client';
 import exampleImage from './image.png';
-import { useReplicant } from 'use-nodecg';
+import { useReplicant } from '@nodecg/react-hooks';
 import { ExampleReplicant } from '../../types/generated';
 
 const App = () => {
-  const [exampleReplicant] = useReplicant<ExampleReplicant>('exampleReplicant', {
-    exampleProperty: '',
-  });
+  const [exampleReplicant] = useReplicant<ExampleReplicant>('exampleReplicant');
 
   return (
     <>
       <img src={exampleImage} />
-      <p>{exampleReplicant.exampleProperty}</p>
+      <p>{exampleReplicant?.exampleProperty}</p>
     </>
   );
 };

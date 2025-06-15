@@ -1,10 +1,12 @@
 # nodecg-react-vite-template
 Template for NodeCG bundles that use React and TypeScript. Heavily inspired by zoton2's [nodecg-vue-ts-template](https://github.com/zoton2/nodecg-vue-ts-template) template.
 
+This template uses the [new install method](https://www.nodecg.dev/docs/installing-new) for NodeCG.
+
 ## Some technical details
 - Extension uses TypeScript.
 - Browser uses React v18, with TSX support by default.
-    - Includes [use-nodecg](https://github.com/nodecg/use-nodecg) for easy use of replicants compatible with React Hooks.
+    - Includes [@nodecg/react-hooks](https://www.npmjs.com/package/@nodecg/react-hooks) for easy use of replicants compatible with React Hooks.
     - Dashboard includes [Material UI](https://mui.com/) configured for dark mode by default for easy styling.
 - ESLint is included for help with writing proper code.
     - Includes [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) and [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh) to help with writing React Hooks.
